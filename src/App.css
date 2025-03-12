@@ -1,0 +1,65 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+#sifra {
+  height: 60%;
+}
+h1 {
+  font-size: 2vmax;
+  background: linear-gradient(
+    270deg,
+    rgba(29, 165, 191, 1) 21%,
+    rgba(186, 12, 123, 1) 73%
+  );
+  background-clip: text;
+  color: transparent;
+}
+button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(
+    270deg,
+    rgba(29, 165, 191, 1) 21%,
+    rgba(186, 12, 123, 1) 73%
+  );
+  box-shadow: 20px 20px 50px rgb(37, 96, 90);
+}
+#resImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#speakImg {
+  width: 90px;
+}
+p {
+  font-size: 1.5vmax;
+  color: white;
+  text-align: center;
+}
+.response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#aigif {
+  width: 100%;
+  height: 90px;
+}
