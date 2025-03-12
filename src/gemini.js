@@ -1,4 +1,4 @@
-let apiKey = "AIzaSyCgSxaxJaOVCyZdjmdEa0HOkV6gHCv6TFQ";
+let apiKey = "write your api here";
 
 import {
   GoogleGenerativeAI
